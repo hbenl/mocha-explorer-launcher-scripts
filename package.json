@@ -1,0 +1,22 @@
+{
+  "name": "mocha-explorer-launcher-scripts",
+  "version": "0.1.0",
+  "description": "Launcher scripts for the Mocha Explorer extension for VS Code",
+  "author": "Holger Benl <hbenl@evandor.de>",
+  "license": "MIT",
+  "homepage": "https://github.com/hbenl/mocha-explorer-launcher-scripts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hbenl/mocha-explorer-launcher-scripts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hbenl/mocha-explorer-launcher-scripts/issues"
+  },
+  "dependencies": {
+    "vscode-test-adapter-remoting-util": "^0.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.17.21",
+    "typescript": "~3.8.3"
+  }
+}
