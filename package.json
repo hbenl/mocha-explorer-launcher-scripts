@@ -12,6 +12,14 @@
   "bugs": {
     "url": "https://github.com/hbenl/mocha-explorer-launcher-scripts/issues"
   },
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "vscode-test/*",
+    "README.md",
+    "LICENSE"
+  ],
   "dependencies": {
     "vscode-test-adapter-remoting-util": "^0.9.0"
   },
