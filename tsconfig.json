@@ -8,6 +8,7 @@
     "removeComments": true
   },
   "include": [
+    "nyc/*.ts",
     "vscode-test/*.ts"
   ]
 }

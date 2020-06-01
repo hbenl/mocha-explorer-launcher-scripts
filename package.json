@@ -16,6 +16,7 @@
     "build": "tsc"
   },
   "files": [
+    "nyc/*",
     "vscode-test/*",
     "README.md",
     "LICENSE"
