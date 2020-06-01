@@ -30,7 +30,7 @@ process.once('message', async (workerArgs: WorkerArgs) => {
 			],
 			// setting stdio to 'inherit' ensures that any messages that the tests
 			// write to stdout/stderr will reach Mocha Test Explorer
-			{ stdio: 'inherit', env: { ...process.env, MOCHA_WORKER_IPC_PORT: undefined } }
+			{ stdio: 'inherit' }
 		);
 
 		const socket = await receiveConnection(ipcOpts.port);
