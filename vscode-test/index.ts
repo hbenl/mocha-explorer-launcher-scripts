@@ -1,5 +1,5 @@
 import * as util from 'util';
-import { runTests } from 'vscode-test';
+import { runTests } from '@vscode/test-electron';
 
 (async function() {
 	try {
