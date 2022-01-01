@@ -1,6 +1,6 @@
 {
   "name": "mocha-explorer-launcher-scripts",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Launcher scripts for the Mocha Explorer extension for VS Code",
   "author": "Holger Benl <hbenl@evandor.de>",
   "license": "MIT",
