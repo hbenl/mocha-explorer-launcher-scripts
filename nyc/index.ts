@@ -13,7 +13,7 @@ process.once('message', async (workerArgs: WorkerArgs) => {
 		// IPC options for the communication between this launcher script and the worker script
 		const ipcOpts = {
 			role: 'client',
-			port: parseInt(process.env['NYC_LAUNCHER_IPC_PORT'] || '9449'),
+			port: parseInt(process.env['NYC_PORT'] || '8123'),
 			host: 'localhost'
 		};
 

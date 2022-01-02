@@ -8,7 +8,9 @@
     "removeComments": true
   },
   "include": [
+    "docker/*.ts",
     "nyc/*.ts",
+    "ssh/*.ts",
     "vscode-test/*.ts"
   ]
 }

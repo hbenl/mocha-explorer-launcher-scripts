@@ -16,7 +16,9 @@
     "build": "tsc"
   },
   "files": [
+    "docker/*",
     "nyc/*",
+    "ssh/*",
     "vscode-test/*",
     "README.md",
     "LICENSE"
